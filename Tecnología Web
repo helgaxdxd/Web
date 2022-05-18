@@ -1,2 +1,303 @@
 <!DOCTYPE>
-OLIWIS
+<html>
+<head>
+    <href a="Estiloformulario.css"></href>
+    <title>
+        .:: FORMULARIO DE INGRESO::.
+    </title>
+    <meta charset="utf8">
+    <meta name="descriptiom"
+    <center>
+        <h2> FICHA DE INSCRIPCION</h2>
+        <h3> CICLO ESCOLAR:2021-2022</h3>
+    </center>
+</head>
+<body>
+<form action="Respuesta formulario.html" id="msform fieldset" >
+    <center>
+        <label for="cendis">Cendis</label>
+        <select id="cendis">
+        <option selected disabled>-Selecciona una-</option>
+            <option>"Amalia Solorzano de Cárdenas</option>
+            <option selected disabled>"Clementina Batalla de Bassols"</option>
+            <option selected disabled>"Eva Samana de Lopez Mateos"</option>
+            <option selected disabled>"Laura Perez de Batíz"</option>
+            <option selected disabled>"Margarita Salazar de Erro"</option>
+        </select>
+    </center>
+    <br>
+    <br>
+    <label for="foto">Foto del niño</label>
+    <input type="file" id="foto" name="foto">
+    <br>
+    <label for="folio">Folio o Número de boleta</label>
+    <input type="text" id="folio" name="folio">
+    <br><br>
+    <label for="grupo">Grupo</label>
+    <input type="text" id="grupo" name="grupo">
+    <br><br>
+<fieldset>
+    <legend>DATOS DEL NIÑO O NIÑA</legend>
+    <br>
+    <br>
+    <label for="apPat">Apellido Paterno</label>
+    <input type="text" id="apPat" name="apPat">
+    <label for="apMat">Apellido Materno</label>
+    <input type="text" id="apMat" name="apMat">
+    <label for="nombre">Nombre(s)</label>
+    <input type="text" id="nombre" name="nombre">
+    <br>
+    <br>
+    <label for="fecha">Fecha de nacimiento</label>
+    <input type="date" id="fecha" name="fecha">
+    <br>
+    <br>
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="edad">
+    <br>
+    <br>
+    <label for="curp">CURP</label>
+    <input type="text" id="curp" name="curp">
+    <br>
+    <br>
+</fieldset>
+<fieldset>
+    <legend>DATOS DEL DERECHOHABIENTE</legend>
+    <label for="apPatD">Apellido Paterno</label>
+    <input type="text" id="apPatD" name="apPatD">
+    <label for="apMatD">Apellido Materno</label>
+    <input type="text" id="apMatD" name="apMatD">
+    <label for="nombreD">Nombre(s)</label>
+    <input type="text" id="nombreD" name="nombreD">
+    <br>
+    <br>
+    <legend>Domicilio particular</legend>
+    <br>
+    <label for="calle">Calle</label>
+    <input type="text" id="calle" name="calle">
+    <label for="noEx">Número exterior</label>
+    <input type="number" id="noEx" name="noEx">
+    <label for="noIn">Número interior</label>
+    <input type="number" id="noIn" name="noIn">
+    <label for="colonia">Colonia</label>
+    <input type="text" id="colonia" name="colonia">
+    <br>
+    <br>
+    <label for="Alc">Alcaldía o Municipio</label>
+    <input type="text" id="Alc" name="Alc">
+    <label for="ef">Entidad Federativa de procedencia:  </label>
+    <select id="ef">
+    <option selected disabled>-Selecciona una-</option>
+    <option>Aguascalientes</option>
+    <option>Baja California</option>
+    <option>Baja California Sur</option>
+    <option>Campeche</option>
+    <option>Chiapas</option>
+    <option>Chihuahua</option>
+    <option>Ciudad de México</option>
+    <option>Coahuila</option>
+    <option>Colima</option>
+    <option>Durango</option>
+    <option>Guanajuato</option>
+    <option>Guerrero</option>
+    <option>Hidalgo</option>
+    <option>Jalisco</option>
+    <option>México</option>
+    <option>Michoacán</option>
+    <option>Morelos</option>
+    <option>Nayarit</option>
+    <option>Nuevo León</option>
+    <option>Oaxaca</option>
+    <option>Puebla</option>
+    <option>Querétaro</option>
+    <option>Quintana Roo</option>
+    <option>San Luis Potosí</option>
+    <option>Sinaloa</option>
+    <option>Sonora</option>
+    <option>Tabasco</option>
+    <option>Tamaulipas</option>
+    <option>Tlaxcala</option>
+    <option>Veracruz</option>
+    <option>Yucatán</option>
+    <option>Zacatecas</option>
+    </select>
+    <label for="cp">CP</label>
+    <input type="number" id="cp" name="cp">
+    <label for="tel">Telefono fijo</label>
+    <input type="tel" id="tel" name="tel">
+    <br>
+    <br>
+    <label for="cel">Número de celular</label>
+    <input type="tel" id="cel" name="cel">
+    <label for="email">Correo electrónico</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <br>
+    <p>Ocupacion
+        <input type="radio" name="genero">Docente
+        <input type="radio" name="genero">PAAE
+        <input type="radio" name="genero">Funcionario
+    </p>
+    <br>
+    <label for="curpd">CURP</label>
+    <input type="text" id="curpd" name="curpd">
+    <label for="pop">Nombre de la plaza o puesto</label>
+    <input type="text" id="pop" name="pop">
+    <br>
+    <br>
+    <label for="sueldo">Sueldo</label>
+    <select>
+        <option selected disabled>--Seleccione una opcion--</option>
+        <option>menos de $10,000</option>
+        <option>de 10,001 a $20,000</option>
+        <option>De 20,001 a $30,000</option>
+        <option>De 30,001 a $40,000</option>
+        <option>De 40,001 a $50,000</option>
+        <option> 50,001 o más</option>
+    </select>
+    <label for="noemp">Número de empleado</label>
+    <input type="text" id="noemp" name="noemp">
+    <label for="adq">Adscripcion</label>
+    <input type="text" id="adq" name="adq">
+    <br><br>
+    <p>Horario de trabajo</p>
+    <label for="hore">Hora de entrada</label>
+    <input type="time" id="hore" name="hore">
+    <label for="hora">Horario de salida</label>
+    <input type="time" id="hora" name="hora">
+    <br><br>
+    <label for="ext">Extencion</label>
+    <input type="texto" id="ext" name="ext">
+</fieldset>
+<fieldset>
+    <legend> DATOS DEL CONYUGUE </legend>
+    <label for="apPatC">Apellido Paterno</label>
+    <input type="text" id="apPatC" name="apPatC">
+    <label for="apMatD">Apellido Materno</label>
+    <input type="text" id="apMatC" name="apMatC">
+    <label for="nombreC">Nombre(s)</label>
+    <input type="text" id="nombreC" name="nombreC">
+    <br>
+    <legend>Domicilio particular</legend>
+    <br>
+    <label for="calleC">Calle</label>
+    <input type="text" id="calleC" name="calleC">
+    <label for="noExC">Número exterior</label>
+    <input type="number" id="noExC" name="noExC">
+    <label for="noInC">Número interior</label>
+    <input type="number" id="noInC" name="noInC">
+    <label for="coloniaC">Colonia</label>
+    <input type="text" id="coloniaC" name="coloniaC">
+    <br>
+    <br>
+    <label for="AlcC">Alcaldía o Municipio</label>
+    <input type="text" id="AlcC" name="AlcC">
+    <label for="efC">Entidad Federativa de procedencia:  </label>
+    <select id="efC">
+    <option selected disabled>-Selecciona una-</option>
+    <option>Aguascalientes</option>
+    <option>Baja California</option>
+    <option>Baja California Sur</option>
+    <option>Campeche</option>
+    <option>Chiapas</option>
+    <option>Chihuahua</option>
+    <option>Ciudad de México</option>
+    <option>Coahuila</option>
+    <option>Colima</option>
+    <option>Durango</option>
+    <option>Guanajuato</option>
+    <option>Guerrero</option>
+    <option>Hidalgo</option>
+    <option>Jalisco</option>
+    <option>México</option>
+    <option>Michoacán</option>
+    <option>Morelos</option>
+    <option>Nayarit</option>
+    <option>Nuevo León</option>
+    <option>Oaxaca</option>
+    <option>Puebla</option>
+    <option>Querétaro</option>
+    <option>Quintana Roo</option>
+    <option>San Luis Potosí</option>
+    <option>Sinaloa</option>
+    <option>Sonora</option>
+    <option>Tabasco</option>
+    <option>Tamaulipas</option>
+    <option>Tlaxcala</option>
+    <option>Veracruz</option>
+    <option>Yucatán</option>
+    <option>Zacatecas</option>
+    </select>
+    <label for="cpC">CP</label>
+    <input type="number" id="cpC" name="cpC">
+    <label for="telC">Telefono fijo</label>
+    <input type="tel" id="telC" name="telC">
+    <br>
+    <br>
+    <label for="celC">Número de celular</label>
+    <input type="tel" id="celC" name="celC">
+    <label for="lt">Lugar de trabajo</label>
+    <input type="text" id="lt" name="lt">
+    <br>
+    <legend>Domicilio del trabajo</legend>
+    <br>
+    <label for="calleT">Calle</label>
+    <input type="text" id="calleT" name="calleT">
+    <label for="noExT">Número exterior</label>
+    <input type="number" id="noExC" name="noExT">
+    <label for="noInT">Número interior</label>
+    <input type="number" id="noInT" name="noInT">
+    <label for="coloniaT">Colonia</label>
+    <input type="text" id="coloniaT" name="coloniaT">
+    <br>
+    <br>
+    <label for="AlcT">Alcaldía o Municipio</label>
+    <input type="text" id="AlcT" name="AlcT">
+    <label for="efT">Entidad Federativa de procedencia:  </label>
+    <select id="efT">
+    <option selected disabled>-Selecciona una-</option>
+    <option>Aguascalientes</option>
+    <option>Baja California</option>
+    <option>Baja California Sur</option>
+    <option>Campeche</option>
+    <option>Chiapas</option>
+    <option>Chihuahua</option>
+    <option>Ciudad de México</option>
+    <option>Coahuila</option>
+    <option>Colima</option>
+    <option>Durango</option>
+    <option>Guanajuato</option>
+    <option>Guerrero</option>
+    <option>Hidalgo</option>
+    <option>Jalisco</option>
+    <option>México</option>
+    <option>Michoacán</option>
+    <option>Morelos</option>
+    <option>Nayarit</option>
+    <option>Nuevo León</option>
+    <option>Oaxaca</option>
+    <option>Puebla</option>
+    <option>Querétaro</option>
+    <option>Quintana Roo</option>
+    <option>San Luis Potosí</option>
+    <option>Sinaloa</option>
+    <option>Sonora</option>
+    <option>Tabasco</option>
+    <option>Tamaulipas</option>
+    <option>Tlaxcala</option>
+    <option>Veracruz</option>
+    <option>Yucatán</option>
+    <option>Zacatecas</option>
+    </select>
+    <label for="telT">Telefono fijo</label>
+    <input type="tel" id="telT" name="telT">
+    <label for="extT">Extencion</label>
+    <input type="tel" id="extT" name="extT">
+</fieldset>
+</form>
+<br><br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+</body>
+</html>
+
